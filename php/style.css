@@ -1,0 +1,37 @@
+#con_temperature {
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+  }
+#con_humidite {
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+  }
+
+  .flex_temp{
+      display: flex;
+      position: center;
+  }
+ .center{
+     text-align: center;
+ }
+ html{
+     background-color: rgb(63, 82, 82);
+ }
+
+#graph_temp{
+   margin-right: 50px;
+   margin-left: 100px;
+}
+#graph_hum{
+    margin-left: 50px;
+}
+
+.marg_graph_temp{
+    margin-right: 350px;
+    margin-left: 150px;
+}   
+#marg_graph_hul{
+    margin-left: 50px;
+}
