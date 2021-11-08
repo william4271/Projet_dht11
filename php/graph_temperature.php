@@ -24,14 +24,14 @@ require_once("src/jpgraph_line.php");  // = courbe
 require_once("src/jpgraph_date.php");
 
 $host = 'localhost';
-$user = 'capteurdht11';
-$password = 'irbts12020P4';
-$database = 'projet_capteur'; // la base de données 
-$table = "capteur_dht11";             // nom de la table
+$user = '';
+$password = '';
+$database = ''; // la base de données 
+$table = "";             // nom de la table
 $graphique_largeur 	= 500;
 $graphique_hauteur 	= 250;
 $graphique_titre   	             = 'Etang-Sale - Température (°C)';
-$sql_table   		= 'capteur_dht11';
+$sql_table   		= '';
 $sql_champx  		= 'date';
 $sql_champy  		= 'temperature';
 $nbmesure = "240";
