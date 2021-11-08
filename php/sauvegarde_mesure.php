@@ -38,10 +38,10 @@
 <?php
 
 ini_set('display_errors', 1);
-$user = "capteurdht11";
-$password = "irbts12020P4";
+$user = "";
+$password = "";
 $host = "localhost";
-$database = "projet_capteur";
+$database = "";
 $requete_recup = "SELECT temperature, humidite FROM capteur_dht11 ORDER BY id DESC LIMIT 1";
 
 $connection = new mysqli($host, $user, $password, $database);
