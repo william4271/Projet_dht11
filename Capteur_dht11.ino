@@ -6,9 +6,9 @@
 #define DHTPIN 4     // Port de connection de capteur
 #define DHTTYPE DHT11   
 
-const char* ssid     = "Livebox-0126";
-const char* password = "0sw4v3ef";
-const char* host = "192.168.1.15";
+const char* ssid     = "";
+const char* password = "";
+const char* host = "";
 
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -64,7 +64,7 @@ WiFiClient client;
         Serial.println("connection failed");
         return;
     }
- client.print(String("GET http://192.168.1.15/projet_capteur/sauvegarde_mesure.php?") + 
+ client.print(String("GET http:///projet_capteur/sauvegarde_mesure.php?") + 
                           ("&temperature=") + temperature +
                           ("&humidite=") + humidite +
                           " HTTP/1.0\r\n" +
